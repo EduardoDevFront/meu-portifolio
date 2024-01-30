@@ -1,0 +1,416 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #3d3d3d;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align:left;
+    margin-left: 100px;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 2px black;
+    
+
+    
+    
+}
+h2{
+    
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align:left;
+    margin-left: 100px;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 2px black
+    
+    
+}
+/*menu-desktop*/
+nav{
+    display: flex;
+    background-color: #0f90e6;
+    padding: 16px;
+    justify-content: right;
+    align-items: center;
+    
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    gap: 16px;
+    margin-right: 100px;
+}
+
+.menu_centro{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    align-items: center;
+}
+
+.menu li a{
+    color: black;
+    background-color: rgb(147, 221, 250);
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px -3px black;
+}
+
+.menu_itens:hover{
+    outline: 2px solid rgb(147, 221, 250);
+    background-color: transparent;
+    color: white;
+}
+
+/*imagem principal*/
+
+.logo_principal{
+    width: 100px;
+    align-items: center;
+    justify-content:left;
+}
+
+.img_logo{
+    width: 80%;
+    margin: 100px 0 0 130px;
+    animation:float 2s ease-in-out infinite;
+}
+ @keyframes float{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform:translateY(-50px);
+    }
+ }
+ .show-or-hide{
+    background-color: black;
+ }
+
+.menu_centro__botao ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    gap: 16px;
+    margin-left: 60px;
+    
+}
+
+.menu_centro__botao li{
+    color: black;
+    background-color: rgb(147, 221, 250);
+    padding: 14px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px -3px black;
+    margin-bottom: 500px;
+}
+.menu_centro__botao a{
+    text-decoration: none;
+}
+
+.menu_centro__botao li:hover{
+    outline: 2px solid  #0f90e6;
+    background-color: transparent;
+    color: white;
+}
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+/*conteudo-sobremin*/
+
+.conteudo_central{
+
+    background-color: #292929;
+    font-size: 36px;
+    height: 1000px;
+    padding-top: 80px;
+   
+}
+.text-sobremin{
+    font-size: 25px;
+    text-align:left;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #f1f1f1 
+   
+}
+
+.habilidades-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+
+}
+.habilidades-cards{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(164, 164, 168);
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px;
+    box-shadow: 0 5px 5px -3px black;
+
+}
+
+
+/*menu-projetos*/
+
+.projetos_menu{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.projetos_menu2{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.projetos{
+    
+    width: 250px;
+    height: 250px;
+    background-color: rgb(164, 164, 168);
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 5px 5px -3px black;
+    
+   
+
+}
+
+.projeto_title{
+    
+    font-size: 62px;
+    text-transform: uppercase;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 2px black
+}
+
+.botao_curriculo{
+    margin-top: 50px;
+    list-style-type: none;
+    font-size: 16px;
+    gap: 16px;
+    margin-left: 100px
+}
+.botao_curriculo a{
+    
+    background-color:rgb(147, 221, 250);
+    padding: 16px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.botao_curriculo a:hover{
+    outline: 2px solid  white;
+    background-color: transparent;
+    color: white;
+}
+
+.menu_centro2{
+    display: flex;
+    margin-top: 100px;
+}
+.text-projetos{
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black
+    
+}
+
+/*footet*/
+ footer{
+    background-color: #0f90e6;
+    width: 100%;
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+ 
+ }
+
+.primeira-parte-rodape{
+    border-bottom: 1px solid white ;
+    display: flex;
+}
+
+.text-footer{
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    text-transform: uppercase;  
+    text-shadow: 2px 2px 2px black  
+   
+}
+.text-footer h3{
+    font-size: 30px
+}
+
+.midias{
+    margin-top: 20px;
+    position: absolute;
+    right: 50px;
+}
+
+
+.footer-icons a img{
+    width: 25px;
+}
+
+.text-midias{ 
+   text-align: right;
+   margin-right: 130px;
+   color: white;
+   font-size: 20px;
+   text-transform: uppercase;
+   text-shadow: 2px 2px 2px black
+    
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    gap: 16px;
+   
+}
+
+
+.copyright-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright-text p{
+    
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black
+}
+
+/*mobile*/
+
+@media screen and (max-width:1020px){
+
+    .menu_centro2{
+       flex-direction: column;
+    }
+
+    .img_logo{
+        margin-left: 45px;
+    }
+
+    h1{
+        
+        font-size: 40px;
+        margin-left: 40px;
+    }
+    h2{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    .conteudo_central{
+        height: 1500px;
+        padding-top: 30px;
+    }
+    
+   
+    .text-sobremin{
+        font-size: 20px;
+        margin: 10px 15px 10px 15px;
+    }
+    .habilidades-container{
+        flex-direction: column;
+
+    }
+    .botao_curriculo{
+        margin-left: 60px;
+    }
+
+    /*PROJETOS MENU*/
+    .projetos_menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .projetos_menu2{
+        display: none;
+    }
+
+    /* CABEÇALHO*/
+    .menu_itens{
+        display: none;
+    }
+    .menu_centro__botao ul{
+        margin-left: 20px;
+    }
+    .menu_centro__botao li{
+        margin-bottom: 320px;
+    }
+    .menu_centro2{
+        margin-top: 20px;
+    }
+    /*FOOTER*/
+    .primeira-parte-rodape {
+        display: inline-block;
+        border-bottom: 0;
+    }
+
+    .midias{
+        margin: 75px 0px 25px 100px;
+        position: relative;
+    }
+
+    .footer-icons a img{
+        width: 25px;
+    }
+
+    .text-midias{ 
+        text-align: center;
+     }
+    
+}
